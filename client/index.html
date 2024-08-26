@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5x5 Chess-like Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <div id="current-player">Current Player: A</div>
+        <div id="board">
+            <!-- Chess board will be generated here -->
+        </div>
+        <div id="movement-guide">
+            <h3>Piece Movement Guide</h3>
+            <ul>
+                <li>Pawn (P): Moves 1 step in any direction <span class="directions">&#8598; &#8593; &#8599; &#8592; &#8594; &#8601; &#8595; &#8600;</span></li>
+                <li>Hero1 (H1): Moves 2 steps in any direction <span class="directions">&#8598;&#8598; &#8593;&#8593; &#8599;&#8599; &#8592;&#8592; &#8594;&#8594; &#8601;&#8601; &#8595;&#8595; &#8600;&#8600;</span></li>
+                <li>Hero2 (H2): Moves 2 steps diagonally <span class="directions">&#8598;&#8600; &#8599;&#8601; &#8600;&#8598; &#8601;&#8599;</span></li>
+                <li>Hero3 (H3): Moves 2 steps in one direction, then 1 step perpendicular (all directions)</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
